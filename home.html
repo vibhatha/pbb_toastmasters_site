@@ -1,0 +1,93 @@
+<title></title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<style type="text/css">/* Carousel container styling */
+  .carousel {
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #001f3f, #800000); /* Dark blue and dark red background */
+  }
+
+  /* Custom image styling */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 800px; /* Setting a max height to avoid oversized images */
+    object-fit: contain; /* This ensures images retain their aspect ratios */
+    transition: transform 0.5s ease;
+  }
+
+  /* Hover effect to scale images */
+  .carousel-item:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Image captions */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  /* Custom carousel controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.8); /* Make buttons lighter */
+    border-radius: 50%;
+    padding: 15px;
+  }
+
+  /* Custom indicators */
+  .carousel-indicators [data-bs-target] {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  /* Fade transition between slides */
+  .carousel-item {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+
+  .carousel-item.active {
+    opacity: 1;
+  }
+
+  /* Make control buttons visible */
+  .carousel-control-prev, .carousel-control-next {
+    color: black;
+    width: 5%;
+  }
+</style>
+<!-- Carousel Start -->
+<div class="carousel slide carousel-fade" data-bs-interval="3000" data-bs-ride="carousel" id="imageCarousel"><!-- Indicators -->
+<div class="carousel-indicators"><button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#imageCarousel" type="button"></button><button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#imageCarousel" type="button"></button><button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#imageCarousel" type="button"></button><button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#imageCarousel" type="button"></button></div>
+
+<div class="carousel-inner"><!-- First Image (Active) -->
+<div class="carousel-item active"><img alt="PBB Club Members" class="d-block w-100" src="/imageuploads/7966661/MDZ_7728.jpg" /></div>
+<!-- Second Image -->
+
+<div class="carousel-item"><img alt="Toastmasters Session" class="d-block w-100" src="/imageuploads/7966661/TM_Random_1.jpg" /></div>
+<!-- Third Image -->
+
+<div class="carousel-item"><img alt="Oath" class="d-block w-100" src="/imageuploads/7966661/MDZ_7503.jpg" /></div>
+<!-- Fourth Image -->
+
+<div class="carousel-item"><img alt="Leadership Meeting" class="d-block w-100" src="/imageuploads/7966661/MDZ_7453.jpg" /></div>
+</div>
+<!-- Carousel Controls --><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#imageCarousel" type="button"><span class="visually-hidden">Previous</span></button><button class="carousel-control-next" data-bs-slide="next" data-bs-target="#imageCarousel" type="button"><span class="visually-hidden">Next</span></button></div>
+<!-- Carousel End --><!-- Unchanged text sections -->
+
+<p style="text-align: justify;"></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span calibri="" light=""><span style="color:black">Professionals Beyond Boundaries Toastmasters Club (PBBTMC), based in Sri Lanka, is a fully virtual Toastmasters club established for enthusiastic professionals who believe in and value continuous learning and self-growth while becoming more effective communicators and leaders.</span></span></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span calibri="" light=""><span style="color:black">Our members come from various professions and reside in different regions of the country and the world, yet they share a common futuristic orientation toward developing themselves and others.</span></span></span></span></p>
+
+<p style="text-align: justify;"><span style="font-size:16px;"><span style="font-family:Tahoma,Geneva,sans-serif;"><span calibri="" light=""><span style="color:black">We chartered on 1st February 2022&nbsp;</span></span><span style="color:#000000;">and since then, Professionals Beyond Boundaries Toastmasters has grown into a vibrant community where diverse voices come together to inspire, support, and challenge one another.</span></span></span></p>
+
+<p style="text-align: justify;"><span style="color:#000000;"><span style="font-size:16px;"><span style="font-family:Tahoma,Geneva,sans-serif;">At PBBTMC, we believe that the journey of self-development is limitless. Our club&#39;s goal is to empower professionals to unlock their potential, step beyond their comfort zones, and embrace every opportunity to grow as communicators and leaders. With each meeting, we strive to uphold the Toastmasters values of integrity, respect, service, and excellence, while embracing our own theme of <em>Beyond Boundaries</em>, encouraging members to push past their limits and achieve greatness.</span></span></span></p>
+<!-- Bootstrap JS and dependencies --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
